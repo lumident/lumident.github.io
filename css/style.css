@@ -13,14 +13,22 @@
 
 body {
   text-align: center;
-  background-color: #6d6868;
 }
-h1{
+
+#h1Change{
+	z-index: 99999;
+}
+
+.day{
+	background-color: #fff;
+	color: #000;
+}
+.night{
+	background-color: #000;
 	color: #fff;
-
 }
 
-.loader {
+/*.loader {
     background: #000;
     background: radial-gradient(#222, #000);
     bottom: 0;
@@ -112,4 +120,4 @@ h1{
 	100% {
 		transform: rotate(360deg);
 	}
-}
+}*/
