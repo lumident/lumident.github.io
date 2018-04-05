@@ -1,7 +1,7 @@
-var day = document.querySelector("#day")
-var gonight = document.querySelector("#night")
+var day = document.querySelector(".day")
+var gonight = document.querySelector(".night")
 var h1C
-	h1C = document.querySelector("#h1Change")
+	h1C = document.querySelector(".h1Change")
 gonight.setAttribute("disabled","false");
 
 day.onclick = function(){
@@ -42,7 +42,7 @@ switch (Month)
   case 0: fMonth="января"; break;
   case 1: fMonth="февраля"; break;
   case 2: fMonth="марта"; break;
-  case 3: fMonth="апреля" + ""; break;
+  case 3: fMonth="апреля"; break;
   case 4: fMonth="мае"; break;
   case 5: fMonth="июня"; break;
   case 6: fMonth="июля"; break;

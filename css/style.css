@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-#h1Change{
+.h1Change{
 	z-index: 99999;
 }
 
@@ -27,6 +27,38 @@ body {
 	background-color: #000;
 	color: #fff;
 }
+button{
+	border: 1px solid #000;
+	border-radius: 5px;
+	transition: .7s;
+}
+
+.btn1{
+	background-color: #fff;
+	color: #000;
+}
+.btn2{
+	background-color: #fff;
+	color: #000;
+}
+
+button:hover{
+
+	background: #ffc74a;
+	animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+@keyframes trambling-animation {
+	0%, 50%, 100% {
+		transform: rotate(0deg);
+	}
+	10%, 30% {
+		transform: rotate(-2deg);
+	}
+	20%, 40% {
+		transform: rotate(2deg);
+	
+}
+
 
 .loader {
     background: #000;
