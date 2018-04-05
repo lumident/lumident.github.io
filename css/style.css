@@ -1,0 +1,13 @@
+@font-face {
+	font-family: Lato-Thin;
+  src: url('../font/Lato-Thin.ttf');
+}
+
+* {
+  font-family: Lato-Thin;
+  font-weight: 600;
+}
+
+body {
+  text-align: center;
+}
