@@ -94,6 +94,7 @@ $(".nyan").css({ display: "block" });
 $("#pony").css({ display: "none" });
 $(".nyaCat").css({ display: "none" });
 $(".loader-inner").css({ display: "none" });
+$(".reload").css({ display: "block"});
 
 function getRandomInt(min, max){ return Math.floor(Math.random() * (max - min + 1)) + min; }
 
@@ -176,4 +177,9 @@ window.setInterval(function(){
   nyan.css({'background-position': 34*frame+'px'});
   frame++;
 }, 100);
+};
+
+var reload = document.querySelector(".reload");
+reload.onclick = function(){
+	window.location.reload(true);
 }
